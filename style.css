@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 5px;
+  }
+  .grid {
+    border: 1px solid #000;
+    min-height: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid > div {
+    display: flex; 
+    flex-basis: calc(25% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+/* 
+  .game > div:hover {
+    background-color: red;
+  } */
+/* #hoverColour {
+    background-color: blue;
+} */
